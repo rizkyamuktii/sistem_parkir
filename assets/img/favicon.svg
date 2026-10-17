@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Shield / Tile -->
+  <rect x="2" y="2" width="44" height="44" rx="12" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle inner border -->
+  <rect x="2" y="2" width="44" height="44" rx="12" fill="none" stroke="#60a5fa" stroke-width="1.5" stroke-opacity="0.4"/>
+
+  <!-- Modern Bold 'P' -->
+  <path d="M16 34V14h9c4.418 0 8 3.358 8 7.5s-3.582 7.5-8 7.5h-4.5v5H16zm4.5-9h4.5c2.209 0 4-1.567 4-3.5s-1.791-3.5-4-3.5H20.5v7z" fill="#ffffff"/>
+
+  <!-- IoT Signal Dot / Radar Indicator -->
+  <circle cx="34" cy="14" r="3" fill="#10b981"/>
+</svg>
